@@ -202,4 +202,47 @@ footer{
             bottom: -10%;
         }
     }
+
+    div.footer-socials{
+        position: relative;
+        z-index: 1;
+        background-color: #303030;
+        padding: 3rem 20rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a{
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: white;
+        border: 2px solid #0282f9;
+        padding: 1rem;
+
+        &:hover{
+            background-color: #5d5d5d;
+        }
+    }
+
+    h2{
+        text-transform: uppercase;
+        color: $main-blue;
+        margin-right: 1rem;
+    }
+
+    section.links,
+    .links>ul{
+        display: flex;
+        align-items: center;
+
+        li{
+            margin-right: 1rem;
+
+            &:hover img{
+                filter: brightness(150%);
+                cursor: pointer;
+            }
+        }
+    }
 }

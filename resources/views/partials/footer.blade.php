@@ -49,4 +49,30 @@
             <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="DC main logo">
         </section>
     </div>
+    <div class="footer-socials">
+        <section class="sign-up-btn">
+            <a href="#">sign-up now!</a>
+        </section>
+
+        <section class="links">
+            <h2>follow us</h2>
+            <ul>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" alt="Facebook">
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" alt="Twitter">
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/footer-youtube.png')}}" alt="youTube">
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" alt="Pinterest">
+                </li>
+                <li>
+                    <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}" alt="Periscope">
+                </li>
+            </ul>
+        </section>
+    </div>
 </footer>

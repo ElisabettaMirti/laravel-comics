@@ -292,5 +292,5 @@ Route::get('/', function () {
             "name" => 'DC Power Visa',
         ],
     ];
-    return view('pages.home', compact("headerNav", "latestComics", "footerComicsLinks", "footerShopLinks", "footerDcLinks", "footerSitesLinks" ));
+    return view('pages.home', compact("headerNav", "latestComics", "footerComicsLinks", "footerShopLinks", "footerDcLinks", "footerSitesLinks"));
 });
