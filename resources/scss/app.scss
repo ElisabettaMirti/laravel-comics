@@ -45,4 +45,10 @@ header{
             }
         }
     }
+
+    section.jumbo{
+        height: 400px;
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;
+    }
 }
