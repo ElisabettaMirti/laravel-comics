@@ -183,45 +183,45 @@ Route::get('/', function () {
         ],
         [
             "id" => 2,
-            "name" => 'comics',
+            "name" => 'Comics',
         ],
         [
             "id" => 3,
-            "name" => 'movies',
+            "name" => 'Movies',
         ],
         [
             "id" => 4,
-            "name" => 'tv',
+            "name" => 'Tv',
         ],
         [
             "id" => 5,
-            "name" => 'games',
+            "name" => 'Games',
         ],
         [
             "id" => 6,
-            "name" => 'collectibles',
+            "name" => 'Collectibles',
         ],
         [
             "id" => 7,
-            "name" => 'videos',
+            "name" => 'Videos',
         ],
         [
             "id" => 8,
-            "name" => 'fans',
+            "name" => 'Fans',
         ],
         [
             "id" => 9,
-            "name" => 'news',
+            "name" => 'News',
         ],
     ];
     $footerShopLinks = [
         [
             "id" => 1,
-            "name" => 'shop DC',
+            "name" => 'Shop DC',
         ],
         [
             "id" => 2,
-            "name" => 'shop DC collectibles',
+            "name" => 'Shop DC collectibles',
         ],
     ];
     $footerDcLinks = [

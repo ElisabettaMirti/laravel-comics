@@ -48,7 +48,7 @@ header{
 
     section.jumbo{
         height: 400px;
-        background-image: url('../img/jumbotron.jpg');
+        background-image: url(../img/jumbotron.jpg);
         background-size: cover;
     }
 }
@@ -120,6 +120,86 @@ main{
             &:hover{
                 background-color: #57a8f5;
             }
+        }
+    }
+
+    section.merch-nav{
+        background-color: $main-blue;
+        padding: 0 20rem;
+        display: block;
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 4rem 2rem;
+
+            li{
+                display: flex;
+                align-items: center;
+            }
+
+            li>span{
+                color: white;
+                margin-right: 2rem;
+                text-transform: uppercase;
+            }
+
+            li>img{
+                height: 4rem;
+                max-width: 4rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+
+footer{
+    div.footer-container{
+        padding: 0 20rem;
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../img/footer-bg.jpg);
+    }
+
+    section.navbar{
+        padding: 2rem 1rem;
+
+        nav{
+            display: flex;
+
+            h3{
+                color: white;
+                text-transform: uppercase;
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    ul>li{
+        color: #707070;
+        padding: .2rem;
+
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .nav-one,
+    .nav-two,
+    .nav.three{
+        margin-right: 2rem;
+    }
+
+    section.dc-logo{
+        position: relative;
+
+        img{
+            position: absolute;
+            right: 50%;
+            bottom: -10%;
         }
     }
 }
