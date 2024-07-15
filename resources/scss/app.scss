@@ -1,1 +1,48 @@
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
+@use '../scss/partials/variables.scss' as *;
+@use '../scss/partials/mixins' as *;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul>li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20rem;
+
+    ul{
+        display: flex;
+
+
+        li{
+            text-transform: uppercase;
+            font-weight: bolder;
+            padding: 1rem;
+            color: $main-black;
+
+            &.active a{
+            color: $main-blue;
+            }
+        }
+    }
+}
