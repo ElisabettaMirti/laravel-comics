@@ -35,11 +35,10 @@
                     <h3>sites</h3>
                     <ul>
                         @foreach ($footerSitesLinks as $link)
-
+                            <li>
+                                {{ $link['name'] }}
+                            </li>
                         @endforeach
-                        <li>
-                            {{ $link['name'] }}
-                        </li>
                     </ul>
                 </section>
             </nav>
