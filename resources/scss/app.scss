@@ -46,11 +46,14 @@ header{
         }
     }
 
-    section.jumbo{
-        height: 400px;
-        background-image: url(../img/jumbotron.jpg);
-        background-size: cover;
-    }
+
+}
+
+section.jumbo{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
 }
 
 main{

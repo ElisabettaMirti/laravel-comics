@@ -15,7 +15,5 @@
                 @endforeach
             </ul>
         </nav>
-
-    </section>
-    <section class="jumbo"></section>
 </header>
+</section><section class="jumbo"></section>
